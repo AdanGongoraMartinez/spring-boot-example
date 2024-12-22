@@ -1,0 +1,10 @@
+curl -X PUT http://localhost:8080/clientes
+-H "Content-Type: application/json" 
+-d '{
+  "id":"6",
+  "name":"Cliente 6 - Nuevo",
+  "username":"cliente6nuevo",
+  "password":"123456789"
+}'
+
+curl -X PUT http://localhost:8080/clientes -H "Content-Type: application/json" -d '{ "id":"6","name":"Cliente 6 - Nuevo","username":"cliente6nuevo","password":"123456789"}'

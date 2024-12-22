@@ -1,0 +1,4 @@
+curl -X DELETE http://localhost:8080/clientes/4
+
+### A cabron
+DELETE http://localhost:8080/clientes/4
