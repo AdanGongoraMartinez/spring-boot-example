@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "stock": 10,
+        "name": "Producto 1 - JSON",
+        "price": 20.99
+    },
+    {
+        "id": 2,
+        "stock": 10,
+        "name": "Producto 2 - JSON",
+        "price": 20.99
+    },
+    {
+        "id": 3,
+        "stock": 10,
+        "name": "Producto 3 - JSON",
+        "price": 20.99
+    },
+    {
+        "id": 4,
+        "stock": 10,
+        "name": "Producto 4 - JSON",
+        "price": 20.99
+    }
+]
