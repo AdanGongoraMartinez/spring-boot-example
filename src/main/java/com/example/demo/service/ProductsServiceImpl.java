@@ -4,12 +4,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Product;
 
-@Service
+@Service("listResourceSercice")
+@ConditionalOnProperty(name = "service.products", havingValue = "list")
 public class ProductsServiceImpl implements ProductsService {
+    public ProductsServiceImpl() {
+        System.out.println("Lista");
+    }
 
     List<Product> products = new ArrayList<>(Arrays.asList(
             new Product(1, "Producto 1", 10, 20.99),
